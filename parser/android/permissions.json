@@ -1,0 +1,674 @@
+{
+  "android.permission.ACCESS_LOCATION_EXTRA_COMMANDS": {
+    "meaning": "Allows an application to access extra location provider commands.",
+    "level": "normal"
+  },
+  "android.permission.ACCESS_NETWORK_STATE": {
+    "meaning": "Allows applications to access information about networks.",
+    "level": "normal"
+  },
+  "android.permission.ACCESS_NOTIFICATION_POLICY": {
+    "meaning": "Marker permission for applications that wish to access notification policy.",
+    "level": "normal"
+  },
+  "android.permission.ACCESS_WIFI_STATE": {
+    "meaning": "Allows applications to access information about Wi-Fi networks.",
+    "level": "normal"
+  },
+  "android.permission.BLUETOOTH": {
+    "meaning": "Allows applications to connect to paired bluetooth devices.",
+    "level": "normal"
+  },
+  "android.permission.BLUETOOTH_ADMIN": {
+    "meaning": "Allows applications to discover and pair bluetooth devices.",
+    "level": "normal"
+  },
+  "android.permission.BROADCAST_STICKY": {
+    "meaning": "Allows an application to broadcast sticky intents.",
+    "level": "normal"
+  },
+  "android.permission.CHANGE_NETWORK_STATE": {
+    "meaning": "Allows applications to change network connectivity state.",
+    "level": "normal"
+  },
+  "android.permission.CHANGE_WIFI_MULTICAST_STATE": {
+    "meaning": "Allows applications to enter Wi-Fi Multicast mode.",
+    "level": "normal"
+  },
+  "android.permission.CHANGE_WIFI_STATE": {
+    "meaning": "Allows applications to change Wi-Fi connectivity state.",
+    "level": "normal"
+  },
+  "android.permission.DISABLE_KEYGUARD": {
+    "meaning": "Allows applications to disable the keyguard if it is not secure.",
+    "level": "normal"
+  },
+  "android.permission.EXPAND_STATUS_BAR": {
+    "meaning": "Allows an application to expand or collapse the status bar.",
+    "level": "normal"
+  },
+  "android.permission.FOREGROUND_SERVICE": {
+    "meaning": "Allows a regular application to use Service.startForeground.",
+    "level": "normal"
+  },
+  "android.permission.GET_PACKAGE_SIZE": {
+    "meaning": "Allows an application to find out the space used by any package.",
+    "level": "normal"
+  },
+  "android.permission.INSTALL_SHORTCUT": {
+    "meaning": "Allows an application to install a shortcut in Launcher.",
+    "level": "normal"
+  },
+  "android.permission.INTERNET": {
+    "meaning": "Allows applications to open network sockets.",
+    "level": "normal"
+  },
+  "android.permission.KILL_BACKGROUND_PROCESSES": {
+    "meaning": "Allows an application to call ActivityManager.killBackgroundProcesses(String).",
+    "level": "normal"
+  },
+  "android.permission.MANAGE_OWN_CALLS": {
+    "meaning": "Allows a calling application which manages it own calls through the self-managed ConnectionService APIs.",
+    "level": "normal"
+  },
+  "android.permission.MODIFY_AUDIO_SETTINGS": {
+    "meaning": "Allows an application to modify global audio settings.",
+    "level": "normal"
+  },
+  "android.permission.NFC": {
+    "meaning": "Allows applications to perform I/O operations over NFC.",
+    "level": "normal"
+  },
+  "android.permission.READ_SYNC_SETTINGS": {
+    "meaning": "Allows applications to read the sync settings.",
+    "level": "normal"
+  },
+  "android.permission.READ_SYNC_STATS": {
+    "meaning": "Allows applications to read the sync stats.",
+    "level": "normal"
+  },
+  "android.permission.RECEIVE_BOOT_COMPLETED": {
+    "meaning": "Allows an application to receive the Intent.ACTION_BOOT_COMPLETED that is broadcast after the system finishes booting.",
+    "level": "normal"
+  },
+  "android.permission.REORDER_TASKS": {
+    "meaning": "Allows an application to change the Z-order of tasks.",
+    "level": "normal"
+  },
+  "android.permission.REQUEST_COMPANION_RUN_IN_BACKGROUND": {
+    "meaning": "Allows a companion app to run in the background.",
+    "level": "normal"
+  },
+  "android.permission.REQUEST_COMPANION_USE_DATA_IN_BACKGROUND": {
+    "meaning": "Allows a companion app to use data in the background.",
+    "level": "normal"
+  },
+  "android.permission.REQUEST_DELETE_PACKAGES": {
+    "meaning": "Allows an application to request deleting packages.",
+    "level": "normal"
+  },
+  "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS": {
+    "meaning": "Permission an application must hold in order to use Settings.ACTION_REQUEST_IGNORE_BATTERY_OPTIMIZATIONS.",
+    "level": "normal"
+  },
+  "android.permission.SET_ALARM": {
+    "meaning": "Allows an application to broadcast an Intent to set an alarm for the user.",
+    "level": "normal"
+  },
+  "android.permission.SET_WALLPAPER": {
+    "meaning": "Allows applications to set the wallpaper.",
+    "level": "normal"
+  },
+  "android.permission.SET_WALLPAPER_HINTS": {
+    "meaning": "Allows applications to set the wallpaper hints.",
+    "level": "normal"
+  },
+  "android.permission.TRANSMIT_IR": {
+    "meaning": "Allows using the device's IR transmitter, if available.",
+    "level": "normal"
+  },
+  "android.permission.USE_FINGERPRINT": {
+    "meaning": "This constant was deprecated in API level 28. Applications should request USE_BIOMETRIC instead",
+    "level": "normal"
+  },
+  "android.permission.VIBRATE": {
+    "meaning": "Allows access to the vibrator.",
+    "level": "normal"
+  },
+  "android.permission.WAKE_LOCK": {
+    "meaning": "Allows using PowerManager WakeLocks to keep processor from sleeping or screen from dimming.",
+    "level": "normal"
+  },
+  "android.permission.WRITE_SYNC_SETTINGS": {
+    "meaning": "Allows applications to write the sync settings.",
+    "level": "normal"
+  },
+  "android.permission.BIND_ACCESSIBILITY_SERVICE": {
+    "meaning": "Must be required by an AccessibilityService, to ensure that only the system can bind to it.",
+    "level": "signature"
+  },
+  "android.permission.BIND_AUTOFILL_SERVICE": {
+    "meaning": "Must be required by a AutofillService, to ensure that only the system can bind to it.",
+    "level": "signature"
+  },
+  "android.permission.BIND_CARRIER_SERVICES": {
+    "meaning": "The system process that is allowed to bind to services in carrier apps will have this permission.",
+    "level": "signature"
+  },
+  "android.permission.BIND_CHOOSER_TARGET_SERVICE": {
+    "meaning": "This constant was deprecated in API level R. For publishing direct share targets, please follow the instructions in https://developer.android.com/training/sharing/receive.html#providing-direct-share-targets instead.",
+    "level": "signature"
+  },
+  "android.permission.BIND_CONDITION_PROVIDER_SERVICE": {
+    "meaning": "Must be required by a ConditionProviderService, to ensure that only the system can bind to it.",
+    "level": "signature"
+  },
+  "android.permission.BIND_DEVICE_ADMIN": {
+    "meaning": "Must be required by device administration receiver, to ensure that only the system can interact with it.",
+    "level": "signature"
+  },
+  "android.permission.BIND_DREAM_SERVICE": {
+    "meaning": "Must be required by an DreamService, to ensure that only the system can bind to it.",
+    "level": "signature"
+  },
+  "android.permission.BIND_INCALL_SERVICE": {
+    "meaning": "Must be required by a InCallService, to ensure that only the system can bind to it.",
+    "level": "signature"
+  },
+  "android.permission.BIND_INPUT_METHOD": {
+    "meaning": "Must be required by an InputMethodService, to ensure that only the system can bind to it.",
+    "level": "signature"
+  },
+  "android.permission.BIND_MIDI_DEVICE_SERVICE": {
+    "meaning": "Must be required by an MidiDeviceService, to ensure that only the system can bind to it.",
+    "level": "signature"
+  },
+  "android.permission.BIND_NFC_SERVICE": {
+    "meaning": "Must be required by a HostApduService or OffHostApduService to ensure that only the system can bind to it.",
+    "level": "signature"
+  },
+  "android.permission.BIND_NOTIFICATION_LISTENER_SERVICE": {
+    "meaning": "Must be required by an NotificationListenerService, to ensure that only the system can bind to it.",
+    "level": "signature"
+  },
+  "android.permission.BIND_PRINT_SERVICE": {
+    "meaning": "Must be required by a PrintService, to ensure that only the system can bind to it.",
+    "level": "signature"
+  },
+  "android.permission.BIND_SCREENING_SERVICE": {
+    "meaning": "Must be required by a CallScreeningService, to ensure that only the system can bind to it.",
+    "level": "signature"
+  },
+  "android.permission.BIND_TELECOM_CONNECTION_SERVICE": {
+    "meaning": "Must be required by a ConnectionService, to ensure that only the system can bind to it.",
+    "level": "signature"
+  },
+  "android.permission.BIND_TEXT_SERVICE": {
+    "meaning": "Must be required by a TextService (e.g. SpellCheckerService) to ensure that only the system can bind to it.",
+    "level": "signature"
+  },
+  "android.permission.BIND_TV_INPUT": {
+    "meaning": "Must be required by a TvInputService to ensure that only the system can bind to it.",
+    "level": "signature"
+  },
+  "android.permission.BIND_VISUAL_VOICEMAIL_SERVICE": {
+    "meaning": "Must be required by a link VisualVoicemailService to ensure that only the system can bind to it.",
+    "level": "signature"
+  },
+  "android.permission.BIND_VOICE_INTERACTION": {
+    "meaning": "Must be required by a VoiceInteractionService, to ensure that only the system can bind to it.",
+    "level": "signature"
+  },
+  "android.permission.BIND_VPN_SERVICE": {
+    "meaning": "Must be required by a VpnService, to ensure that only the system can bind to it.",
+    "level": "signature"
+  },
+  "android.permission.BIND_VR_LISTENER_SERVICE": {
+    "meaning": "Must be required by an VrListenerService, to ensure that only the system can bind to it.",
+    "level": "signature"
+  },
+  "android.permission.BIND_WALLPAPER": {
+    "meaning": "Must be required by a WallpaperService, to ensure that only the system can bind to it.",
+    "level": "signature"
+  },
+  "android.permission.CLEAR_APP_CACHE": {
+    "meaning": "Allows an application to clear the caches of all installed applications on the device.",
+    "level": "signature"
+  },
+  "android.permission.MANAGE_DOCUMENTS": {
+    "meaning": "Allows an application to manage access to documents, usually as part of a document picker.",
+    "level": "signature"
+  },
+  "android.permission.READ_VOICEMAIL": {
+    "meaning": "Allows an application to read voicemails in the system.",
+    "level": "signature"
+  },
+  "android.permission.REQUEST_INSTALL_PACKAGES": {
+    "meaning": "Allows an application to request installing packages.",
+    "level": "signature"
+  },
+  "android.permission.SYSTEM_ALERT_WINDOW": {
+    "meaning": "Allows an app to create windows using the type WindowManager.LayoutParams.TYPE_APPLICATION_OVERLAY, shown on top of all other apps.",
+    "level": "signature"
+  },
+  "android.permission.WRITE_SETTINGS": {
+    "meaning": "Allows an application to read or write the system settings.",
+    "level": "signature"
+  },
+  "android.permission.WRITE_VOICEMAIL": {
+    "meaning": "Allows an application to modify and remove existing voicemails in the system.",
+    "level": "signature"
+  },
+  "android.permission.READ_CALENDAR": {
+    "meaning": "Allows an application to read the user's calendar data.",
+    "level": "dangerous"
+  },
+  "android.permission.WRITE_CALENDAR": {
+    "meaning": "Allows an application to write the user's calendar data.",
+    "level": "dangerous"
+  },
+  "android.permission.CAMERA": {
+    "meaning": "Required to be able to access the camera device.",
+    "level": "dangerous"
+  },
+  "android.permission.READ_CONTACTS": {
+    "meaning": "Allows an application to read the user's contacts data.",
+    "level": "dangerous"
+  },
+  "android.permission.WRITE_CONTACTS": {
+    "meaning": "Allows an application to write the user's contacts data.",
+    "level": "dangerous"
+  },
+  "android.permission.GET_ACCOUNTS": {
+    "meaning": "Allows access to the list of accounts in the Accounts Service.",
+    "level": "dangerous"
+  },
+  "android.permission.ACCESS_FINE_LOCATION": {
+    "meaning": "Allows an app to access precise location.",
+    "level": "dangerous"
+  },
+  "android.permission.ACCESS_COARSE_LOCATION": {
+    "meaning": "Allows an app to access approximate location.",
+    "level": "dangerous"
+  },
+  "android.permission.RECORD_AUDIO": {
+    "meaning": "Allows an application to record audio.",
+    "level": "dangerous"
+  },
+  "android.permission.READ_PHONE_STATE": {
+    "meaning": "Allows read only access to phone state, including the phone number of the device, current cellular network information, the status of any ongoing calls, and a list of any PhoneAccounts registered on the device.",
+    "level": "dangerous"
+  },
+  "android.permission.READ_PHONE_NUMBERS": {
+    "meaning": "Allows read access to the device's phone number(s).",
+    "level": "dangerous"
+  },
+  "android.permission.CALL_PHONE": {
+    "meaning": "Allows an application to initiate a phone call without going through the Dialer user interface for the user to confirm the call.",
+    "level": "dangerous"
+  },
+  "android.permission.ANSWER_PHONE_CALLS (must be requested at runtime)": {
+    "meaning": "unknown",
+    "level": "dangerous"
+  },
+  "android.permission.READ_CALL_LOG": {
+    "meaning": "Allows an application to read the user's call log.",
+    "level": "dangerous"
+  },
+  "android.permission.WRITE_CALL_LOG": {
+    "meaning": "Allows an application to write (but not read) the user's call log data.",
+    "level": "dangerous"
+  },
+  "android.permission.ADD_VOICEMAIL": {
+    "meaning": "Allows an application to add voicemails into the system.",
+    "level": "dangerous"
+  },
+  "android.permission.USE_SIP": {
+    "meaning": "Allows an application to use SIP service.",
+    "level": "dangerous"
+  },
+  "android.permission.PROCESS_OUTGOING_CALLS": {
+    "meaning": "This constant was deprecated in API level 29. Applications should use CallRedirectionService instead of the Intent.ACTION_NEW_OUTGOING_CALL broadcast.",
+    "level": "dangerous"
+  },
+  "android.permission.ANSWER_PHONE_CALLS": {
+    "meaning": "Allows the app to answer an incoming phone call.",
+    "level": "dangerous"
+  },
+  "android.permission.BODY_SENSORS": {
+    "meaning": "Allows an application to access data from sensors that the user uses to measure what is happening inside his/her body, such as heart rate.",
+    "level": "dangerous"
+  },
+  "android.permission.SEND_SMS": {
+    "meaning": "Allows an application to send SMS messages.",
+    "level": "dangerous"
+  },
+  "android.permission.RECEIVE_SMS": {
+    "meaning": "Allows an application to receive SMS messages.",
+    "level": "dangerous"
+  },
+  "android.permission.READ_SMS": {
+    "meaning": "Allows an application to read SMS messages.",
+    "level": "dangerous"
+  },
+  "android.permission.RECEIVE_WAP_PUSH": {
+    "meaning": "Allows an application to receive WAP push messages.",
+    "level": "dangerous"
+  },
+  "android.permission.RECEIVE_MMS": {
+    "meaning": "Allows an application to monitor incoming MMS messages.",
+    "level": "dangerous"
+  },
+  "android.permission.READ_EXTERNAL_STORAGE": {
+    "meaning": "Allows an application to read from external storage.",
+    "level": "dangerous"
+  },
+  "android.permission.WRITE_EXTERNAL_STORAGE": {
+    "meaning": "Allows an application to write to external storage.",
+    "level": "dangerous"
+  },
+  "android.permission.CALL_LOG": {
+    "meaning": "unknown",
+    "level": "dangerous"
+  },
+  "android.permission.ACCEPT_HANDOVER": {
+    "meaning": "Allows a calling app to continue a call which was started in another app.",
+    "level": "unknown"
+  },
+  "android.permission.ACCESS_BACKGROUND_LOCATION": {
+    "meaning": "Allows an app to access location in the background.",
+    "level": "unknown"
+  },
+  "android.permission.ACCESS_CHECKIN_PROPERTIES": {
+    "meaning": "Allows read/write access to the \"properties\" table in the checkin database, to change values that get uploaded.",
+    "level": "unknown"
+  },
+  "android.permission.ACCESS_MEDIA_LOCATION": {
+    "meaning": "Allows an application to access any geographic locations persisted in the user's shared collection.",
+    "level": "unknown"
+  },
+  "android.permission.ACCOUNT_MANAGER": {
+    "meaning": "Allows applications to call into AccountAuthenticators.",
+    "level": "unknown"
+  },
+  "android.permission.ACTIVITY_RECOGNITION": {
+    "meaning": "Allows an application to recognize physical activity.",
+    "level": "unknown"
+  },
+  "android.permission.BATTERY_STATS": {
+    "meaning": "Allows an application to collect battery statistics",
+    "level": "unknown"
+  },
+  "android.permission.BIND_APPWIDGET": {
+    "meaning": "Allows an application to tell the AppWidget service which application can access AppWidget's data.",
+    "level": "unknown"
+  },
+  "android.permission.BIND_CALL_REDIRECTION_SERVICE": {
+    "meaning": "Must be required by a CallRedirectionService, to ensure that only the system can bind to it.",
+    "level": "unknown"
+  },
+  "android.permission.BIND_CARRIER_MESSAGING_CLIENT_SERVICE": {
+    "meaning": "A subclass of CarrierMessagingClientService must be protected with this permission.",
+    "level": "unknown"
+  },
+  "android.permission.BIND_CARRIER_MESSAGING_SERVICE": {
+    "meaning": "This constant was deprecated in API level 23. Use BIND_CARRIER_SERVICES instead",
+    "level": "unknown"
+  },
+  "android.permission.BIND_CONTROLS": {
+    "meaning": "Allows SystemUI to request third party controls.",
+    "level": "unknown"
+  },
+  "android.permission.BIND_QUICK_ACCESS_WALLET_SERVICE": {
+    "meaning": "Must be required by a QuickAccessWalletService to ensure that only the system can bind to it.",
+    "level": "unknown"
+  },
+  "android.permission.BIND_QUICK_SETTINGS_TILE": {
+    "meaning": "Allows an application to bind to third party quick settings tiles.",
+    "level": "unknown"
+  },
+  "android.permission.BIND_REMOTEVIEWS": {
+    "meaning": "Must be required by a RemoteViewsService, to ensure that only the system can bind to it.",
+    "level": "unknown"
+  },
+  "android.permission.BLUETOOTH_PRIVILEGED": {
+    "meaning": "Allows applications to pair bluetooth devices without user interaction, and to allow or disallow phonebook access or message access.",
+    "level": "unknown"
+  },
+  "android.permission.BROADCAST_PACKAGE_REMOVED": {
+    "meaning": "Allows an application to broadcast a notification that an application package has been removed.",
+    "level": "unknown"
+  },
+  "android.permission.BROADCAST_SMS": {
+    "meaning": "Allows an application to broadcast an SMS receipt notification.",
+    "level": "unknown"
+  },
+  "android.permission.BROADCAST_WAP_PUSH": {
+    "meaning": "Allows an application to broadcast a WAP PUSH receipt notification.",
+    "level": "unknown"
+  },
+  "android.permission.CALL_COMPANION_APP": {
+    "meaning": "Allows an app which implements the InCallService API to be eligible to be enabled as a calling companion app.",
+    "level": "unknown"
+  },
+  "android.permission.CALL_PRIVILEGED": {
+    "meaning": "Allows an application to call any phone number, including emergency numbers, without going through the Dialer user interface for the user to confirm the call being placed.",
+    "level": "unknown"
+  },
+  "android.permission.CAPTURE_AUDIO_OUTPUT": {
+    "meaning": "Allows an application to capture audio output.",
+    "level": "unknown"
+  },
+  "android.permission.CHANGE_COMPONENT_ENABLED_STATE": {
+    "meaning": "Allows an application to change whether an application component (other than its own) is enabled or not.",
+    "level": "unknown"
+  },
+  "android.permission.CHANGE_CONFIGURATION": {
+    "meaning": "Allows an application to modify the current configuration, such as locale.",
+    "level": "unknown"
+  },
+  "android.permission.CONTROL_LOCATION_UPDATES": {
+    "meaning": "Allows enabling/disabling location update notifications from the radio.",
+    "level": "unknown"
+  },
+  "android.permission.DELETE_CACHE_FILES": {
+    "meaning": "Old permission for deleting an app's cache files, no longer used, but signals for us to quietly ignore calls instead of throwing an exception.",
+    "level": "unknown"
+  },
+  "android.permission.DELETE_PACKAGES": {
+    "meaning": "Allows an application to delete packages.",
+    "level": "unknown"
+  },
+  "android.permission.DIAGNOSTIC": {
+    "meaning": "Allows applications to RW to diagnostic resources.",
+    "level": "unknown"
+  },
+  "android.permission.DUMP": {
+    "meaning": "Allows an application to retrieve state dump information from system services.",
+    "level": "unknown"
+  },
+  "android.permission.FACTORY_TEST": {
+    "meaning": "Run as a manufacturer test application, running as the root user.",
+    "level": "unknown"
+  },
+  "android.permission.GET_ACCOUNTS_PRIVILEGED": {
+    "meaning": "Allows access to the list of accounts in the Accounts Service.",
+    "level": "unknown"
+  },
+  "android.permission.GET_TASKS": {
+    "meaning": "This constant was deprecated in API level 21. No longer enforced.",
+    "level": "unknown"
+  },
+  "android.permission.GLOBAL_SEARCH": {
+    "meaning": "This permission can be used on content providers to allow the global search system to access their data.",
+    "level": "unknown"
+  },
+  "android.permission.INSTALL_LOCATION_PROVIDER": {
+    "meaning": "Allows an application to install a location provider into the Location Manager.",
+    "level": "unknown"
+  },
+  "android.permission.INSTALL_PACKAGES": {
+    "meaning": "Allows an application to install packages.",
+    "level": "unknown"
+  },
+  "android.permission.INSTANT_APP_FOREGROUND_SERVICE": {
+    "meaning": "Allows an instant app to create foreground services.",
+    "level": "unknown"
+  },
+  "android.permission.INTERACT_ACROSS_PROFILES": {
+    "meaning": "Allows interaction across profiles in the same profile group.",
+    "level": "unknown"
+  },
+  "android.permission.LOADER_USAGE_STATS": {
+    "meaning": "Allows a data loader to read a package's access logs.",
+    "level": "unknown"
+  },
+  "android.permission.LOCATION_HARDWARE": {
+    "meaning": "Allows an application to use location features in hardware, such as the geofencing api.",
+    "level": "unknown"
+  },
+  "android.permission.MANAGE_EXTERNAL_STORAGE": {
+    "meaning": "Allows an application a broad access to external storage in scoped storage.",
+    "level": "unknown"
+  },
+  "android.permission.MASTER_CLEAR": {
+    "meaning": "Not for use by third-party applications.",
+    "level": "unknown"
+  },
+  "android.permission.MEDIA_CONTENT_CONTROL": {
+    "meaning": "Allows an application to know what content is playing and control its playback.",
+    "level": "unknown"
+  },
+  "android.permission.MODIFY_PHONE_STATE": {
+    "meaning": "Allows modification of the telephony state - power on, mmi, etc.",
+    "level": "unknown"
+  },
+  "android.permission.MOUNT_FORMAT_FILESYSTEMS": {
+    "meaning": "Allows formatting file systems for removable storage.",
+    "level": "unknown"
+  },
+  "android.permission.MOUNT_UNMOUNT_FILESYSTEMS": {
+    "meaning": "Allows mounting and unmounting file systems for removable storage.",
+    "level": "unknown"
+  },
+  "android.permission.NFC_PREFERRED_PAYMENT_INFO": {
+    "meaning": "Allows applications to receive NFC preferred payment service information.",
+    "level": "unknown"
+  },
+  "android.permission.NFC_TRANSACTION_EVENT": {
+    "meaning": "Allows applications to receive NFC transaction events.",
+    "level": "unknown"
+  },
+  "android.permission.PACKAGE_USAGE_STATS": {
+    "meaning": "Allows an application to collect component usage statistics Declaring the permission implies intention to use the API and the user of the device can grant permission through the Settings application.",
+    "level": "unknown"
+  },
+  "android.permission.PERSISTENT_ACTIVITY": {
+    "meaning": "This constant was deprecated in API level 15. This functionality will be removed in the future; please do not use. Allow an application to make its activities persistent.",
+    "level": "unknown"
+  },
+  "android.permission.QUERY_ALL_PACKAGES": {
+    "meaning": "Allows query of any normal app on the device, regardless of manifest declarations.",
+    "level": "unknown"
+  },
+  "android.permission.READ_INPUT_STATE": {
+    "meaning": "This constant was deprecated in API level 16. The API that used this permission has been removed.",
+    "level": "unknown"
+  },
+  "android.permission.READ_LOGS": {
+    "meaning": "Allows an application to read the low-level system log files.",
+    "level": "unknown"
+  },
+  "android.permission.READ_PRECISE_PHONE_STATE": {
+    "meaning": "Allows read only access to precise phone state.",
+    "level": "unknown"
+  },
+  "android.permission.REBOOT": {
+    "meaning": "Required to be able to reboot the device.",
+    "level": "unknown"
+  },
+  "android.permission.REQUEST_PASSWORD_COMPLEXITY": {
+    "meaning": "Allows an application to request the screen lock complexity and prompt users to update the screen lock to a certain complexity level.",
+    "level": "unknown"
+  },
+  "android.permission.RESTART_PACKAGES": {
+    "meaning": "This constant was deprecated in API level 15. The ActivityManager.restartPackage(String) API is no longer supported.",
+    "level": "unknown"
+  },
+  "android.permission.SEND_RESPOND_VIA_MESSAGE": {
+    "meaning": "Allows an application (Phone) to send a request to other applications to handle the respond-via-message action during incoming calls.",
+    "level": "unknown"
+  },
+  "android.permission.SET_ALWAYS_FINISH": {
+    "meaning": "Allows an application to control whether activities are immediately finished when put in the background.",
+    "level": "unknown"
+  },
+  "android.permission.SET_ANIMATION_SCALE": {
+    "meaning": "Modify the global animation scaling factor.",
+    "level": "unknown"
+  },
+  "android.permission.SET_DEBUG_APP": {
+    "meaning": "Configure an application for debugging.",
+    "level": "unknown"
+  },
+  "android.permission.SET_PREFERRED_APPLICATIONS": {
+    "meaning": "This constant was deprecated in API level 15. No longer useful, see PackageManager.addPackageToPreferred(String) for details.",
+    "level": "unknown"
+  },
+  "android.permission.SET_PROCESS_LIMIT": {
+    "meaning": "Allows an application to set the maximum number of (not needed) application processes that can be running.",
+    "level": "unknown"
+  },
+  "android.permission.SET_TIME": {
+    "meaning": "Allows applications to set the system time directly.",
+    "level": "unknown"
+  },
+  "android.permission.SET_TIME_ZONE": {
+    "meaning": "Allows applications to set the system time zone directly.",
+    "level": "unknown"
+  },
+  "android.permission.SIGNAL_PERSISTENT_PROCESSES": {
+    "meaning": "Allow an application to request that a signal be sent to all persistent processes.",
+    "level": "unknown"
+  },
+  "android.permission.SMS_FINANCIAL_TRANSACTIONS": {
+    "meaning": "Allows financial apps to read filtered sms messages.",
+    "level": "unknown"
+  },
+  "android.permission.START_VIEW_PERMISSION_USAGE": {
+    "meaning": "Allows the holder to start the permission usage screen for an app.",
+    "level": "unknown"
+  },
+  "android.permission.STATUS_BAR": {
+    "meaning": "Allows an application to open, close, or disable the status bar and its icons.",
+    "level": "unknown"
+  },
+  "android.permission.UNINSTALL_SHORTCUT": {
+    "meaning": "Don't use this permission in your app.",
+    "level": "unknown"
+  },
+  "android.permission.UPDATE_DEVICE_STATS": {
+    "meaning": "Allows an application to update device statistics.",
+    "level": "unknown"
+  },
+  "android.permission.USE_BIOMETRIC": {
+    "meaning": "Allows an app to use device supported biometric modalities.",
+    "level": "unknown"
+  },
+  "android.permission.USE_FULL_SCREEN_INTENT": {
+    "meaning": "Required for apps targeting Build.VERSION_CODES.Q that want to use notification full screen intents.",
+    "level": "unknown"
+  },
+  "android.permission.WRITE_APN_SETTINGS": {
+    "meaning": "Allows applications to write the apn settings and read sensitive fields of an existing apn settings like user and password.",
+    "level": "unknown"
+  },
+  "android.permission.WRITE_GSERVICES": {
+    "meaning": "Allows an application to modify the Google service map.",
+    "level": "unknown"
+  },
+  "android.permission.WRITE_SECURE_SETTINGS": {
+    "meaning": "Allows an application to read or write the secure system settings.",
+    "level": "unknown"
+  }
+}

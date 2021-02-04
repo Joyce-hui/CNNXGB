@@ -1,6 +1,7 @@
+# Zhkui - An Android Malware Detection Framework
 
-CNNXGB
+This repo contains source code of paper `A Hierarchical Approach for Android Malware Detection Using Authorization-Sensitive Features`.
 
-Sevever code
+# License
 
-The server is mainly written in python3, and the servers users flask to provide the client with a RESTful interface.
+GPL
